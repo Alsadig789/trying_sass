@@ -1,0 +1,21 @@
+.container {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  @media #{$small}{
+    width: 750px;
+  }
+  @media #{$medium}{
+    width:970px;
+  }
+  @media #{$large}{
+    width: 1170px;
+  }
+  
+}
+.text-center-xs{
+  @media (max-width:767px) {
+    text-align: center;
+  }
+}
